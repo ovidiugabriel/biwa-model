@@ -3,7 +3,7 @@
 ;; and  Yutaka HARA (https://github.com/yhara)
 
 ;; Others: 
-;; * https://github.com/todesking/picture-language-js
+;; * https://github.com/todesking/picture-language-js/blob/master/pict-lang.scm
 ;; * https://github.com/naoyat/reading-sicp/blob/master/satoru/sicp-pictlang.scm
 
 ;; PI
