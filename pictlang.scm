@@ -1,3 +1,7 @@
+
+;; Credits to 'mokehehe' https://github.com/mokehehe
+;; and  Yutaka HARA (https://github.com/yhara)
+
 ;; PI
 (define PI 3.1415926535)
 (define 2PI (* 2 PI))
@@ -7,6 +11,7 @@
 (define make-vect cons)
 (define xcor-vect car)
 (define ycor-vect cdr)
+
 (define (add-vect v1 v2)
   (make-vect (+ (xcor-vect v1) (xcor-vect v2))
              (+ (ycor-vect v1) (ycor-vect v2))))
