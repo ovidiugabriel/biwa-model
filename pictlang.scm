@@ -2,6 +2,10 @@
 ;; Credits to 'mokehehe' https://github.com/mokehehe
 ;; and  Yutaka HARA (https://github.com/yhara)
 
+;; Others: 
+;; * https://github.com/todesking/picture-language-js
+;; * https://github.com/naoyat/reading-sicp/blob/master/satoru/sicp-pictlang.scm
+
 ;; PI
 (define PI 3.1415926535)
 (define 2PI (* 2 PI))
