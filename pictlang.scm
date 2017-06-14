@@ -195,8 +195,6 @@
 ;;;;
 (define *canvas* (dom-element "#canvassample"))
 (define *ctx* (js-invoke *canvas* "getContext" "2d"))
-(define *canvas-width* 384)
-(define *canvas-height* 384)
 (define *frame*
   (make-frame (make-vect 0 0)
               (make-vect 1 0)
