@@ -93,13 +93,12 @@
                         (xcor-vect e1) (ycor-vect e1)
                         (xcor-vect e2) (ycor-vect e2)))))
 
-;; Render to canvas
-(define (canvas-x x)
-  (* x *canvas-width*))
-(define (canvas-y y)
-  (* (- 1 y) *canvas-height*))
-(define (canvas-vx x) (* x *canvas-width*))
-(define (canvas-vy y) (* y *canvas-height*))
+;; Forced to identity because we want to use pixels directly as a measurements unit
+(define canvas-x identity)
+(define canvas-y identity)
+(define canvas-vx identity)
+(define canvas-vy identity)
+
 (define ($color r g b . args)
   (let ((col (if (null? args)
                  (string-append "rgb("
