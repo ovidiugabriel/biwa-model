@@ -193,7 +193,6 @@
         (js-invoke *ctx* "restore")))))
 
 ;;;;
-(define *canvas* (dom-element "#canvassample"))
 (define *ctx* (js-invoke *canvas* "getContext" "2d"))
 (define *frame*
   (make-frame (make-vect 0 0)
